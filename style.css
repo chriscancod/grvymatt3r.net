@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0b0b;
+  color: #f1f1f1;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #111;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-brand {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #ff6a00;
+}
+
+/* HERO */
+#hero {
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.brand-text {
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  color: #aaa;
+  margin: 10px 0 40px;
+}
+
+.featured-stream iframe {
+  width: 90%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  border: none;
+}
+
+/* STREAMS */
+#streams {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.stream-grid iframe {
+  width: 90%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  border: none;
+}
+
+/* SHOP */
+#business {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.product-card {
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(255, 106, 0, 0.4);
+}
+
+/* BLOG */
+#blog {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.blog-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.blog-card {
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 14px;
+  width: 260px;
+}
+/*support*/
+#ads { 
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 0.93m;
+    color: #aaa;
+}
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  color: #777;
+}
